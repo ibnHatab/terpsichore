@@ -1,0 +1,12 @@
+#+STARTUP: showall
+#+TAGS: DOCS(d) CODING(c) TESTING(t) PLANING(p)
+#+STARTUP: hidestars
+#+TITLE:
+#+AUTHOR: Ibn Hatab <lib.aca55a@gmail.com>
+
+* About
+  Terpsichore (T) a domain-specific language, embedded in the
+  functional language Elm, for computer music development.
+
+  Terpsichore is a descendant of Euterpea, and is intended for web
+  based computer music applications.
