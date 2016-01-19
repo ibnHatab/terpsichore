@@ -26,6 +26,7 @@ config :terpsichore, Terpsichore.Repo,
   pool_size: 20
 
 # ## SSL Support
+
 #
 # To get SSL working, you will need to add the `https` key
 # to the previous section and set your `:url` port to 443:
