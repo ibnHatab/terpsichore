@@ -20,7 +20,10 @@ config :terpsichore, Terpsichore.Endpoint,
 # Do not print debug messages in production
 config :logger, level: :info
 
-
+config :terpsichore, Terpsichore.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  url: System.get_env("DATABASE_URL"),
+  pool_size: 20
 
 # ## SSL Support
 #
